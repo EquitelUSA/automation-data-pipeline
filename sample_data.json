@@ -1,0 +1,75 @@
+[
+  {
+    "record_id": "EQ-1001",
+    "source": "api-demo",
+    "category": "automation",
+    "value": 1250.00,
+    "timestamp": "2026-08-16T14:30:00Z",
+    "metadata": {
+      "status": "active",
+      "priority": "high"
+    }
+  },
+  {
+    "record_id": "EQ-1002",
+    "source": "api-demo",
+    "category": "analytics",
+    "value": 875.50,
+    "timestamp": "2026-08-16T15:00:00Z",
+    "metadata": {
+      "status": "active",
+      "priority": "medium"
+    }
+  },
+  {
+    "record_id": "EQ-1003",
+    "source": "webhook-demo",
+    "category": "automation",
+    "value": 2100.00,
+    "timestamp": "2026-08-16T15:45:00Z",
+    "metadata": {
+      "status": "review",
+      "priority": "high"
+    }
+  },
+  {
+    "record_id": "EQ-1004",
+    "source": "webhook-demo",
+    "category": "reporting",
+    "value": 640.25,
+    "timestamp": "2026-08-16T16:15:00Z",
+    "metadata": {
+      "status": "active",
+      "priority": "low"
+    }
+  },
+  {
+    "record_id": "EQ-1002",
+    "source": "api-demo",
+    "category": "analytics",
+    "value": 875.50,
+    "timestamp": "2026-08-16T15:00:00Z",
+    "metadata": {
+      "status": "duplicate-test"
+    }
+  },
+  {
+    "record_id": "EQ-1005",
+    "source": "api-demo",
+    "value": 500.00,
+    "timestamp": "2026-08-16T17:00:00Z",
+    "metadata": {
+      "status": "invalid-missing-category"
+    }
+  },
+  {
+    "record_id": "EQ-1006",
+    "source": "api-demo",
+    "category": "analytics",
+    "value": 950.00,
+    "timestamp": "not-a-valid-date",
+    "metadata": {
+      "status": "invalid-timestamp"
+    }
+  }
+]
